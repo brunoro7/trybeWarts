@@ -2,22 +2,25 @@
   margin: 0;
 }
 
-body {
-  background-color: red;
-}
-
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  height: 90px;
+  align-items: center;
 }
 
-#trybewarts-header-title {
+.trybewarts-header-logo {
+  width: 70px;
+  margin-left: 50px;
 }
 
 .trybewarts-login {
   display: flex;
-  justify-content: flex-end;
-  height: 30px;
+  margin-right: 50px;
+  height: 40px;
 }
 
+#login {
+  margin: 5px;
+}
