@@ -12,3 +12,14 @@ function enviarLogin(event) {
   }
 }
 buttonEntrar.addEventListener('click', enviarLogin);
+
+const buttonEnviar = document.getElementById('submit-btn');
+const inputCheck = document.getElementById('agreement');
+function buttonChecked() {
+  if (inputCheck.checked === true) {
+    buttonEnviar.removeAttribute('disabled');
+  } else {
+    buttonEnviar.setAttribute('disabled');
+  }
+}
+inputCheck.addEventListener('click', buttonChecked);

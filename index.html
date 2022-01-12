@@ -31,25 +31,30 @@
 
     <form id="evaluation-form" action="" method="get">
 
-      <label for="full-name">
-        <input type="text" name="input-name" id="input-name" placeholder="Nome">
-        <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
-      </label>
-
-      <label for="email-and-house">
-        
-        <input type="email" name="input-email" id="input-email" placeholder="Email">
-
-        <label for="house">Casa:
-          <select id="house">
-            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" id="pytherina-house">Pytherina</option>
-          </select>
+      
+        <label for="full-name">
+          <input type="text" name="input-name" id="input-name" placeholder="Nome">
+          <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
         </label>
+      
 
-      </label>
+      
+        <label for="email-and-house">
+          
+          <input type="email" name="input-email" id="input-email" placeholder="Email">
+
+          <label for="house">Casa:
+            <select id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+          </label>
+
+        </label>
+      
+      <hr>
 
       <label for="family" id="label-family">Qual sua família?</label>
         <label for="frontend">
@@ -83,6 +88,7 @@
             <input type="checkbox" value="Python" name="linguagens" id="python">Python</input>
           </label>
         </label>
+        <hr>
 
 
         <section id="notas">
@@ -103,11 +109,25 @@
 
         </section>
 
-    </form>
+      <label class="textarea" for="textarea">Deixe seu comentário:
+        <textarea name="textarea" id="textarea" cols="80" rows="10" maxlength="500"></textarea>
+       </label>
 
-    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo trybewarts colorido">
+      <label id="label-infos" for="checkbox">Você concorda com o uso das informações acima?
+        <input type="checkbox" name="checkbox" id="agreement">
+      </label>
+
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
+
+    </form>
+    
+    <div>
+      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="logo trybewarts colorido">
+    </div>
 
   </main>
+
+  <footer>Direitos reservados à Trybewarts©</footer>
 
 </body>
 
