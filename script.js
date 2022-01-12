@@ -24,6 +24,7 @@ function buttonChecked() {
 }
 inputCheck.addEventListener('click', buttonChecked);
 
+/** retirei a ideia de base com ref nesse link https://dev.to/walternascimentobarroso/character-counter-with-html-and-js-5cl5 */
 function contaTexto() {
   const tamanhoDefault = 500;
   const campoTexto = document.getElementById('textarea');
@@ -35,8 +36,5 @@ function contaTexto() {
   const regressiva = (tamanhoDefault - acompanhaTexto);
 
   caracteres.innerText = regressiva;
-
-  console.log(caracteres);
-  console.log(regressiva);
 }
 contaTexto();
