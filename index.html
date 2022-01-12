@@ -31,18 +31,77 @@
 
     <form id="evaluation-form" action="" method="get">
 
-      <input type="text" name="input-name" id="input-name" placeholder="Nome">
-      <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
-      <input type="email" name="input-email" id="input-email" placeholder="Email">
-
-      <label for="house">Casa:
-        <select id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+      <label for="full-name">
+        <input type="text" name="input-name" id="input-name" placeholder="Nome">
+        <input type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
       </label>
+
+      <label for="email-and-house">
+        
+        <input type="email" name="input-email" id="input-email" placeholder="Email">
+
+        <label for="house">Casa:
+          <select id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </label>
+
+      </label>
+
+      <label for="family" id="label-family">Qual sua família?</label>
+        <label for="frontend">
+          <input type="radio" value="Frontend" name="family" id="frontend">Frontend</input>
+        </label>
+        <labe for="backend">
+          <input type="radio" value="Backend" name="family" id="backend">Backend</input>
+        </labe>
+        <label for="fullStack">
+          <input type="radio" value="FullStack" name="family" id="fullStack">FullStack</input>
+        </label>
+
+      <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <label for="linguagens">
+          <label for="hofs">
+            <input type="checkbox" value="HoFs" name="linguagens" id="hofs">HoFs</input>
+          </label>
+          <label for="jest">
+            <input type="checkbox" value="Jest" name="linguagens" id="jest">Jest</input>
+          </label>
+          <label for="promises">
+            <input type="checkbox" value="Promises" name="linguagens" id="promises">Promises</input>
+          </label>
+          <label for="react">
+            <input type="checkbox" value="React" name="linguagens" id="react">React</input>
+          </label>
+          <label for="sql">
+            <input type="checkbox" value="SQL" name="linguagens" id="sql">SQL</input>
+          </label>
+          <label for="python">
+            <input type="checkbox" value="Python" name="linguagens" id="python">Python</input>
+          </label>
+        </label>
+
+
+        <section id="notas">
+
+          <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
+
+            <input type="radio" value="1" name="rate">1</input>
+            <input type="radio" value="2" name="rate">2</input>
+            <input type="radio" value="3" name="rate">3</input>
+            <input type="radio" value="4" name="rate">4</input>
+            <input type="radio" value="5" name="rate">5</input>
+            <input type="radio" value="6" name="rate">6</input>
+            <input type="radio" value="7" name="rate">7</input>
+            <input type="radio" value="8" name="rate">8</input>
+            <input type="radio" value="9" name="rate">9</input>
+            <input type="radio" value="10" name="rate">10</input>
+          </label>
+
+        </section>
 
     </form>
 
