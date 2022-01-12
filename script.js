@@ -23,3 +23,20 @@ function buttonChecked() {
   }
 }
 inputCheck.addEventListener('click', buttonChecked);
+
+function contaTexto() {
+  const tamanhoDefault = 500;
+  const campoTexto = document.getElementById('textarea');
+  const caracteres = document.getElementById('numCaracters');
+  const acompanhaTexto = campoTexto.value.length;
+
+  caracteres.innerText = tamanhoDefault;
+
+  const regressiva = (tamanhoDefault - acompanhaTexto);
+
+  caracteres.innerText = regressiva;
+
+  console.log(caracteres);
+  console.log(regressiva);
+}
+contaTexto();
