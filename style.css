@@ -81,6 +81,28 @@ hr {
   height: 40px;
 }
 
+#label-family {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+#label-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#input-print {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
   text-align: center;
 }
