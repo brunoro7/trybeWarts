@@ -83,6 +83,7 @@ const paragrafoFamilia = document.getElementById('p-family');
 const paragrafoMateria = document.getElementById('p-materias');
 const paragrafoAvaliacao = document.getElementById('p-rate');
 const paragrafoObserv = document.getElementById('p-observ');
+
 function buttonSubmitForm(event) {
   event.preventDefault();
   const name = document.querySelector('#input-name').value;
